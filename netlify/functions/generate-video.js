@@ -82,7 +82,7 @@ exports.handler = async (event) => {
         promptText: String(data.prompt ||
           "Natural smooth human movement, realistic face, cinematic quality"
         ).slice(0, 1000),
-        ratio: "1280:768",
+        ratio: "1280:720",
         duration: 5
       })
     });
